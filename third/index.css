@@ -1,0 +1,55 @@
+body, html {
+    padding: 0;
+    margin: 0; 
+} /* had to get this from the solution */
+
+.box {
+    height: 175px;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(207, 207, 207);
+}
+
+#logo-placeholder {
+    width: 50px;
+    height: 50px;
+    background-color: cornflowerblue;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* in editor adding margin or padding seems to add margin or padding to the body or html? Vertical align? With padding, without border-box, square flowed outside of header area, */
+
+p {
+    height: 200px;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* without border box, text didn't wrap */
+
+.blue {
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 90px;
+}
+.teal {
+    background-color: rgb(118, 228, 228);
+    width: 100%;
+    height: 90px;
+}
+.green {
+    background-color: greenyellow;
+    width: 100%;
+    height: 90px;
+}
+.yellow {
+    background-color: yellow;
+    width: 100%;
+    height: 90px;
+}
+
